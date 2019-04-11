@@ -49,14 +49,14 @@ public class TestGreeter {
    public void newtestAMGreeterPass() 
 
    {
-      g.setName("Austin")
+      g.setName("Austin");
 
       assertEquals(g.getName(),"Austin");
 
       assertEquals(g.sayHello(),"Hello Austin!");
 
    }
-   
+
    @Test
 
    public void testGreeter() 
