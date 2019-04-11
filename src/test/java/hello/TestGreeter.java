@@ -60,6 +60,10 @@ public class TestGreeter {
 
       assertEquals(g.sayHello(),"Hello World!");
 
+      g.setName("Anne");
+
+      assertEquals(g.sayAnnesTheMan(),"Anne the mf man!");
+
    }
 
 }

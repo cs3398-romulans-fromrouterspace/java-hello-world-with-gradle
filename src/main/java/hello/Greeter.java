@@ -52,4 +52,26 @@ public class Greeter {
 
   }
 
+   public String sayAnnesTheMan() 
+
+  {
+
+    if (name == "") 
+
+    {
+
+       return "Who's the man?";
+
+    }
+
+    else 
+
+    {
+
+       return name + " the mf man!";
+
+    }
+
+  } 
+
 }
