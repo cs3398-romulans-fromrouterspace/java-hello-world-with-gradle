@@ -53,7 +53,8 @@ public class TestGreeter {
    public void newtestAMGreeterPass() 
 
    {
-
+      g.setName("World");
+      
       assertEquals(g.getName(),"World");
 
       assertEquals(g.sayHello(),"Hello!");
