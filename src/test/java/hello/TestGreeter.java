@@ -32,8 +32,6 @@ public class TestGreeter {
 
    }
 
-
-
    @Test
 
    public void testGreeterEmpty() 
