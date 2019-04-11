@@ -62,7 +62,9 @@ public class TestGreeter {
 
       g.setName("Anne");
 
-      assertEquals(g.sayAnnesTheMan(),"Anne the mf man!");
+      assertEquals(g.sayAnnesTheMan(),"Anne the mf man!");  // Should pass.
+
+      assertEquals(g.sayAnnesTheMan(), "Anne's super lame.");  // Should fail.
 
    }
 
