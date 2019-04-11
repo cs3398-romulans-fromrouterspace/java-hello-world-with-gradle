@@ -46,15 +46,17 @@ public class TestGreeter {
 
    }
 
-	@Test
+	
+
+   @Test
 
    public void newtestAMGreeterPass() 
 
    {
 
-      assertEquals(g.getName(),"yeet");
+      assertEquals(g.getName(),"World");
 
-      assertEquals(g.sayHello(),"Got horses in the back");
+      assertEquals(g.sayHello(),"Hello!");
 
    }
 
