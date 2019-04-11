@@ -46,21 +46,6 @@ public class TestGreeter {
 
    }
 
-	
-
-   @Test
-
-   public void newtestAMGreeterPass() 
-
-   {
-      g.setName("World");
-
-      assertEquals(g.getName(),"World");
-
-      assertEquals(g.sayHello(),"World");
-
-   }
-
    @Test
 
    public void testGreeter() 
