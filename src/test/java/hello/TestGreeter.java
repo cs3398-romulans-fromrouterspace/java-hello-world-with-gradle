@@ -46,7 +46,17 @@ public class TestGreeter {
 
    }
 
-	
+   @Test
+
+   public void newtestWIHGreeterPass() 
+
+   {
+
+      g.setName("William")
+
+      assertEquals(g.getName(),"William");
+
+   }
 
    @Test
 
