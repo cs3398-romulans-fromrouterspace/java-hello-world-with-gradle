@@ -48,13 +48,13 @@ public class TestGreeter {
 
    @Test
 
-   public void newtestWIHGreeterPass() 
+   public void newtestWIHGreeterFail() 
 
    {
 
       g.setName("William");
 
-      assertEquals(g.getName(),"William");
+      assertEquals(g.getName(),"Clearly Not William");
 
    }
 
