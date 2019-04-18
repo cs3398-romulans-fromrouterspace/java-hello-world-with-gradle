@@ -140,7 +140,7 @@ public class TestGreeter {
 
    }
 
-   @Test 
+   /*@Test 
 
    public void newtestHBWGreeterPass()
 
@@ -152,7 +152,7 @@ public class TestGreeter {
 
       assertEquals(g.sayHello(),"Hello Hollie!");
 
-   }
+   }*/
 
    /*@Test 
 
