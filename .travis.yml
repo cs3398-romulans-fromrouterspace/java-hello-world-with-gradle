@@ -1,3 +1,12 @@
 language: java
 
+deploy:
+provider: releases
+apu_key:
+  secure: $GITHUB_OAUTH_TOKEN
+file_glob: true
+file: build/**/*
+skip_cleanup: true
+on: tags: true
+
 script: ./gradlew build
