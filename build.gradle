@@ -33,12 +33,13 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 dependencies {
+    //Attempt to fix junit.org does not exist error.
     testCompile 'junit:junit:4.12'
     compile 'junit:junit:4.12'
-/*    compile "joda-time:joda-time:2.2"
+    compile "joda-time:joda-time:2.2"
     testCompile "org.junit.jupiter:junit-jupiter-api:5.0.1"
 // the following is a work around to fix the warning:
-//          warning: unknown enum constant Status.STABLE*/
+//          warning: unknown enum constant Status.STABLE
     testCompileOnly "org.apiguardian:apiguardian-api:1.0.0"
 }
 // end::dependencies[]
